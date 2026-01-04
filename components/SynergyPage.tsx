@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SynergyPair } from '../types';
 import { SynergyPod } from './SynergyPod';
