@@ -1,3 +1,4 @@
+
 import React, { useMemo, useEffect, useState } from 'react';
 import { 
   ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip 
@@ -359,7 +360,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ initialSectionId, onBack }
                   <h2 className="text-2xl font-bold text-purple-900 mb-2">AI Study Pods</h2>
                   <p className="text-purple-700 max-w-2xl mx-auto">
                     Our algorithm analyzes student strengths to create optimal study pairs. 
-                    Students with >80% in a subject help those with lower scores, maximizing the class potential.
+                    Students with &gt;80% in a subject help those with lower scores, maximizing the class potential.
                   </p>
                </div>
                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
